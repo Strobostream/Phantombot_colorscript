@@ -3,7 +3,7 @@
     {
         var command = event.getCommand(),
         sender = event.getSender.toLowerCase(),
-        args = event.getArgs(),
+        args = event.getArgs.toLowerCase(),
         pointcost = 200,
         color = ['rouge', 'orange', 'jaune', 'vert', 'cyan', 'bleu', 'violet', 'rose'];
         
