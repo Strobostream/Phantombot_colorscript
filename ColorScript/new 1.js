@@ -1,4 +1,4 @@
-$.bind('couleur', function(event) 
+$.bind('command', function(event) 
 {
     var command = event.getCommand(),
     sender = event.getSender();
