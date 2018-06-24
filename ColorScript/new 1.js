@@ -14,5 +14,6 @@ $.bind('couleur', function(event)
 });
 
 $.bind('initReady', function() {
-            $.registerChatCommand('./custom/color.js', 'couleur');
+    if (isModuleEnabled('./systems/pointSystem.js')) {
+            $.registerChatCommand('./custom/color.js', 'couleur')};
 });
