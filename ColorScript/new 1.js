@@ -12,3 +12,7 @@ $.bind('couleur', function(event)
     $.say('Utilisation : !couleur [couleur parmi celles-ci : rouge, orange, jaune, vert, cyan, blue, violet, rose]');
     }
 });
+
+$.bind('initReady', function() {
+            $.registerChatCommand('./custom/color.js', 'couleur');
+});
