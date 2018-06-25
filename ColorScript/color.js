@@ -8,7 +8,8 @@
 			args = event.getArgs();
 			
 			if (command.equalsIgnoreCase('couleur')) {
-				if (args.length == 1 && colors.includes(args[0]))
+				//if (args.length == 1 && colors.includes(args[0]))
+				if (args.length == 1 && colors.indexOf(arg[0]) == 0)
 					{
 						$.say(sender + ' a changé la couleur en ' + args[0]);
 						return;
