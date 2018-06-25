@@ -27,3 +27,18 @@
         $.registerChatCommand('./custom/color.js', 'couleur', 7);
     });
 }) ();
+
+
+isInTable function(item,table)
+{
+	var isIncluded = false;
+	for (i=0 ; i<table.length ; i++)
+	{
+		if (item == table[i])
+		{
+			isIncluded = true;
+			break;
+		}
+	}
+};
+if doesInclude { givePoints }
